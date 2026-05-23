@@ -1,9 +1,8 @@
 //run this program using javac Counter.java - > java Counter
 class Counter {
-    // uncomment the below lines to know the importance of static keyword
 
-    int number = 10;
-    // static int number=10;
+    //int number = 10;
+     static int number=10;
 
     void increment() {
         number = number + 1;
@@ -20,8 +19,6 @@ class Counter {
 
         // to check your answers uncomment the next lines
 
-        // System.out.println(obj1.number);
-        // System.out.println(obj2.number);
-        // System.out.println(obj3.number);
+         System.out.println(Counter.number);
     }
 }
